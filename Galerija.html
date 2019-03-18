@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Incar</title>
+    <link href="https://fonts.googleapis.com/css?family=Overpass" rel="stylesheet">
+    <link rel="stylesheet" href="libs/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./css/Gallery.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="libs/js/bootstrap.bundle.min.js"></script>
+    <script src="js/scripts.js"></script>
+</head>
+<body>
+
+<header>
+    <div class="container-fluid" id="logo-backround">
+        <div align="middle">
+            <a href="./index.html">
+                <img class="logo" src="./images/Logo.png" alt="">
+            </a>
+        </div>
+    </div>
+    <div class="container-fluid-space">
+        <div class="row">
+            <nav class="navbar navbar-light bg-light">
+                <form class="form-inline">
+                    <a class="dropdown-item" href="./par-mums.html">Par mums</a>
+                    <a class="dropdown-item" href="./Pakalpojumi.html">Pakalpojumi</a>
+                    <a class="dropdown-item" id="active-drop" href="./Galerija.html">Galerija</a>
+                    <a class="dropdown-item" href="./kontakti.html">Kontakti</a>
+                </form>
+            </nav>
+            <div class="col">
+                <hr>
+            </div>
+            <div class="col-auto" id="div-logo">
+                <a href="#"><img class="social-logo" src="./images/Facebook.png" alt=""></a>
+                <a href="#"><img class="social-logo" src="./images/Instagram.png" alt=""></a>
+                <a href="#"><img class="social-logo" src="./images/Twitter.png" alt=""></a>
+            </div>
+        </div>
+    </div>
+
+</header>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-auto" id="moving-block">
+    </div>
+        <div class="col-md-5">
+            <div class="block">
+                <img src="./images/projekti/1.jpg" alt="">
+            </div>
+        </div>
+        <div class="col-md-5">
+            <div class="block">
+                <img src="./images/projekti/3.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-5">
+            <div class="block">
+                <img src="./images/projekti/2.jpg" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-4">
+				<span>
+					<a href="./par-mums.html">Par mums</a><br>
+					<a href="./Pakalpojumi.html">Pakalpojumi</a><br>
+					<a href="./Galerija.html">Galerija</a><br>
+					<a href="./kontakti.html">Kontakti</a>
+				</span>
+            </div>
+            <div align="center" class="col-4">
+				<span>
+					Tel.Nr<br>
+					Reģ Nr.<br>
+				</span>
+            </div>
+            <div align="right" class="col-4">
+                <span>Sia "Incar"</span>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script>
+    $(document).ready(function () {
+        $("button").click(function () {
+            if ($(this).attr("aria-expanded")==="false"){
+                $("button>img").css({
+                    "transition":"400ms",
+                    "transform": "rotate(180deg)"
+                });
+                $("#moving-block").css({
+                    "width": "250px",
+                    "height": "250px"
+                })
+            }
+            else {$("#moving-block").css({
+                "width": "0px",
+                "height": "0px"});
+                $("button>img").css({
+                    "transform": "rotate(0deg)"
+                });
+            }
+        });
+    });
+</script>
+
+</body>
+</html>

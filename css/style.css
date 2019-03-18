@@ -1,0 +1,143 @@
+body{
+    font-family: 'Overpass', sans-serif;
+}
+
+/* Header */
+
+#logo-backround{
+    background: #050029;
+    background: linear-gradient(to bottom, #050029 0%, #030066 100%);
+    -webkit-box-shadow: 0 10px 10px 0 rgba(0,0,0,0.24);
+    -moz-box-shadow: 0 10px 10px 0 rgba(0,0,0,0.24);
+    box-shadow: 0 10px 10px 0 rgba(0,0,0,0.24);
+}
+
+.container-fluid-space{
+    margin:5px;
+}
+
+.row{
+    margin-top: 20px;
+}
+
+.logo{
+    width: 27%;
+    min-width: 220px;
+    max-width: 350px;
+}
+
+#div-logo{
+    margin: 15px 0 10px 0;
+}
+
+.social-logo{
+    margin-right: 10px;
+    width: 28px;
+}
+
+.social-logo:hover{
+    filter:drop-shadow(2px 2px 1px);
+}
+
+hr {
+    margin-top: 30px;
+    border-radius: 10px;
+    border-width: 4px;
+    border-color: #0f0f0f;
+}
+
+.dropdown-item{
+    margin: 0 5px;
+    width: 135px;
+    padding: 6px 20px 6px 10px;
+    font-size: large;
+    font-weight: bold;
+    border: #0f0f0f solid 3px;
+}
+
+.dropdown-item:hover{
+    background-color: #0f0f0f;
+    color: white;
+}
+
+#active-drop{
+    background-color: #0f0f0f;
+    color: white;
+}
+
+/* Body */
+
+.jumbotron{
+    padding-left: 60px;
+    position: relative;
+    background-color: #ff8e2f;
+    -webkit-box-shadow: 7px 7px 25px -2px rgba(0,0,0,0.48);
+    -moz-box-shadow: 7px 7px 25px -2px rgba(0,0,0,0.48);
+    box-shadow: 7px 7px 25px -2px rgba(0,0,0,0.48);
+    border-radius: 10px;
+}
+
+.jumbotron>p{
+    font-size: large;
+}
+
+.carousel-inner{
+    -webkit-box-shadow: 7px 7px 25px -2px rgba(0,0,0,0.48);
+    -moz-box-shadow: 7px 7px 25px -2px rgba(0,0,0,0.48);
+    box-shadow: 7px 7px 25px -2px rgba(0,0,0,0.48);
+    border-radius: 10px;
+}
+
+#kontakti{
+    font-size: x-large;
+    padding-left: 5%;
+}
+
+.col-10{
+    margin:auto;
+}
+
+#main-text-img{
+    padding: 7% 0;
+    background-image: url("../images/Speakers4.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    position: relative;
+
+}
+
+#main-text{
+    line-height: 2;
+    color: white;
+    margin: 1% 12%;
+    text-shadow: gray 1px 1px 1px;
+}
+
+#main-text-h{
+    margin: 2% 8%;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    background-color: #ff8e2f;
+}
+
+iframe{
+    width: 100%;
+    height: 550px;
+    -webkit-box-shadow: 7px 7px 25px -2px rgba(0,0,0,0.48);
+    -moz-box-shadow: 7px 7px 25px -2px rgba(0,0,0,0.48);
+    box-shadow: 7px 7px 25px -2px rgba(0,0,0,0.48);
+    border-radius: 10px;
+}
+
+footer>div{
+    color: #c4e3f3;
+    list-style: none;
+    background-color: #0f0f0f;
+    font-size: small;
+}
+
+.par-mums-script{
+    position: relative;
+}
