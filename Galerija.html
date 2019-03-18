@@ -46,26 +46,54 @@
 
 </header>
 
-<div class="container-fluid">
+<div class="container-fluid gallery-text">
     <div class="row">
-        <div class="col-md-4">
-            <div class="block">
-                <img src="./images/projekti/1.jpg" alt="">
-            </div>
+        <div class="col-1"></div>
+        <div class="col-lg block TL">
+            <img class="img-block" src="./images/projekti/1.jpg" alt="">
+            <p>adasds</p>
         </div>
-        <div class="col-md-4">
-            <div class="block">
-                <img src="./images/projekti/3.jpg" alt="">
-            </div>
+        <div class="col-lg block">
+            <img class="img-block" src="./images/projekti/3.jpg" alt="">
+            <p>adasds</p>
         </div>
-        <div class="col-md-4">
-            <div class="block">
-                <img src="./images/projekti/2.jpg" alt="">
-            </div>
+        <div class="col-lg block TR">
+            <img class="img-block" src="./images/projekti/2.jpg" alt="">
+            <p>adasds</p>
         </div>
+        <div class="col-1"></div>
     </div>
-    <div class="row">
-
+    <div class="row  no-margin">
+        <div class="col-1"></div>
+        <div class="col-lg block">
+            <img class="img-block" src="./images/projekti/4.jpg" alt="">
+            <p>adasds</p>
+        </div>
+        <div class="col-lg block">
+            <img class="img-block" src="./images/projekti/5.jpg" alt="">
+            <p>adasds</p>
+        </div>
+        <div class="col-lg block">
+            <img class="img-block" src="./images/projekti/6.jpg" alt="">
+            <p>adasds</p>
+        </div>
+        <div class="col-1"></div>
+    </div>
+    <div class="row  no-margin">
+        <div class="col-1"></div>
+        <div class="col-lg block BL">
+            <img class="img-block" src="./images/projekti/1.jpg" alt="">
+            <p>adasds</p>
+        </div>
+        <div class="col-lg block">
+            <img class="img-block" src="./images/projekti/3.jpg" alt="">
+            <p>adasds</p>
+        </div>
+        <div class="col-lg block BR">
+            <img class="img-block" src="./images/projekti/2.jpg" alt="">
+            <p>adasds</p>
+        </div>
+        <div class="col-1"></div>
     </div>
 </div>
 
@@ -92,30 +120,6 @@
         </div>
     </div>
 </footer>
-
-<script>
-    $(document).ready(function () {
-        $("button").click(function () {
-            if ($(this).attr("aria-expanded")==="false"){
-                $("button>img").css({
-                    "transition":"400ms",
-                    "transform": "rotate(180deg)"
-                });
-                $("#moving-block").css({
-                    "width": "250px",
-                    "height": "250px"
-                })
-            }
-            else {$("#moving-block").css({
-                "width": "0px",
-                "height": "0px"});
-                $("button>img").css({
-                    "transform": "rotate(0deg)"
-                });
-            }
-        });
-    });
-</script>
 
 </body>
 </html>
