@@ -4,22 +4,25 @@
 }
 
 .img-block{
+    transition: transform 50ms;
     border-radius: 3px;
     width: 100%;
-    border: #4e555b 3px solid;
     -webkit-box-shadow: 7px 7px 25px -2px rgba(0,0,0,0.48);
     -moz-box-shadow: 7px 7px 25px -2px rgba(0,0,0,0.48);
     box-shadow: 7px 7px 25px -2px rgba(0,0,0,0.48);
 }
 
-.img-block:hover{
-    filter: brightness(50%);
-}
-
 .gallery-text>div>div>a>p {
-    padding-top: 15px;
+    padding-top: 12px;
     align-content: center;
     color: black;
     font-weight: bolder;
 }
+
+.img-block:hover{
+    filter: brightness(65%);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.07);
+}
+
 

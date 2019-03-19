@@ -2,6 +2,8 @@ body {
     font-family: 'Overpass', sans-serif;
 }
 
+@media(min-width:60em){html{font-size: 130%}}
+
 /* Header */
 
 #logo-backround{
@@ -52,7 +54,7 @@ hr {
     margin: 5px 5px;
     width: 135px;
     padding: 6px 20px 6px 10px;
-    font-size: large;
+    font-size: 0.9rem;
     font-weight: bold;
     border: #0f0f0f solid 3px;
 }
@@ -80,7 +82,7 @@ hr {
 }
 
 .jumbotron>p{
-    font-size: large;
+    font-size: 0.9rem;
 }
 
 .carousel-inner{
@@ -91,8 +93,8 @@ hr {
 }
 
 #kontakti{
-    font-size: x-large;
-    padding-left: 5%;
+    font-size: 1.2rem;
+    padding-left: 7%;
 }
 
 .col-10{
@@ -110,6 +112,7 @@ hr {
 }
 
 #main-text{
+    font-size: 0.85rem;
     line-height: 2;
     color: white;
     margin: 1% 12%;
@@ -148,7 +151,7 @@ footer>div{
     color: #c4e3f3;
     list-style: none;
     background-color: #0f0f0f;
-    font-size: small;
+    font-size: 0.7rem;
 }
 
 .par-mums-script{
