@@ -1,5 +1,5 @@
 body {
-    font-family: 'Overpass', sans-serif;
+    font-family: 'Muli', sans-serif;
 }
 
 @media(min-width:60em){html{font-size: 130%}}
@@ -24,6 +24,16 @@ body {
     margin-right: 0;
 }
 
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky + .container-fluid {
+    padding-top: 60px;
+}
+
 .logo{
     width: 27%;
     min-width: 220px;
@@ -31,7 +41,7 @@ body {
 }
 
 #div-logo{
-    margin: 15px 0 10px 0;
+    margin: 18px 0 10px 0;
 }
 
 .social-logo{
@@ -44,19 +54,17 @@ body {
 }
 
 hr {
-    margin-top: 30px;
-    border-radius: 10px;
-    border-width: 4px;
+    margin-top: 35px;
+    border-width: 3px;
     border-color: #0f0f0f;
 }
 
 .dropdown-item{
-    margin: 5px 5px;
-    width: 135px;
-    padding: 6px 20px 6px 10px;
-    font-size: 0.9rem;
-    font-weight: bold;
-    border: #0f0f0f solid 3px;
+    margin: 5px 6px;
+    width: 145px;
+    padding: 6px 0 6px 12px;
+    font-size: 0.95rem;
+    border: #0f0f0f solid 2px;
 }
 
 .dropdown-item:hover{
